@@ -7,24 +7,14 @@
     <title>Mapbox Hazard Map</title>
     <style>
       body { margin: 0; padding: 0; }
-      #map { position: absolute; top: 0; bottom: 0; width: 100%;}
-      .control-panel {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background-color: white;
-        padding: 10px;
-        box-shadow: 1 1px 2px rgba(0,0,0,0.1);
-      }
     </style>
   </head>
   <body>
-    <div id="map"></div>
-    <!-- <div class="control-panel">
-      <input type="radio" name="layer" value="none" checked> None
-      <input type="radio" name="layer" value="flood"> Flood Hazard
-      <input type="radio" name="layer" value="elevation"> Elevation
-    </div> -->
+    <div id="map" style="width: 100vw; height: 90vh;"></div>
+    <div id="menu" style="position: absolute; top: 10px; right: 10px; z-index: 1; background-color: white;">
+      <input type="checkbox" id="flood-hazard-toggle">洪水浸水想定区域（想定最大規模）<br>
+      <input type="checkbox" id="elevation-toggle">標高<br>
+    </div>
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
     <script type="module" src="/main.js"></script>
   </body>
