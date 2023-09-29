@@ -8,12 +8,6 @@ Mapboxを使って、洪水ハザードマップ(洪水浸水想定区域(想定
 - .env_template をコピーし .env に変更しそこに上記で取得したアクセストークンを記載してください。 
 
 
-## Install
-
-```shell
-$ 
-```
-
 ## 実施
 
 ```shell
@@ -22,8 +16,8 @@ $ npm run dev
 
 http://localhost:5173/
 
-## Memo
 
 ## 参考
 
-> 
+> 洪水浸水想定区域（想定最大規模） https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html#l2shinsuishin
+> mapbox gl js https://github.com/mapbox/mapbox-gl-js

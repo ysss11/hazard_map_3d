@@ -94,7 +94,7 @@ function addFloodLayer() {
           'type': 'raster',
           'source': {
               'type': 'raster',
-              'tiles': ['https://disaportaldata.gsi.go.jp/raster/01_flood_l1_shinsuishin_newlegend_data/{z}/{x}/{y}.png'],
+              'tiles': ['https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/{z}/{x}/{y}.png'],
               'tileSize': 256
           },
           'paint': { 'raster-opacity': 0.6 },
