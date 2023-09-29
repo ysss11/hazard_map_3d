@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    <title>Mapbox Hazard Map</title>
+    <style>
+      body { margin: 0; padding: 0; }
+      #map { position: absolute; top: 0; bottom: 0; width: 100%;}
+      .control-panel {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 1 1px 2px rgba(0,0,0,0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <!-- <div class="control-panel">
+      <input type="radio" name="layer" value="none" checked> None
+      <input type="radio" name="layer" value="flood"> Flood Hazard
+      <input type="radio" name="layer" value="elevation"> Elevation
+    </div> -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
