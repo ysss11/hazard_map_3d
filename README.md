@@ -19,5 +19,5 @@ http://localhost:5173/
 
 ## 参考
 
-> 洪水浸水想定区域（想定最大規模） https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html#l2shinsuishin
-> mapbox gl js https://github.com/mapbox/mapbox-gl-js
+> 洪水浸水想定区域（想定最大規模） https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html#l2shinsuishin  
+> mapbox gl js https://github.com/mapbox/mapbox-gl-js  
