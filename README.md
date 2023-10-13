@@ -11,6 +11,7 @@ Mapboxを使って、洪水ハザードマップ(洪水浸水想定区域(想定
 ## 実施
 
 ```shell
+$ npm install
 $ npm run dev
 ```
 
